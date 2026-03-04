@@ -1,10 +1,10 @@
-# 🌫️ AQI Reflex Agent (Go CLI)
+# AQI Reflex Agent (Go CLI)
 
 A modular Go CLI application that acts as a **Simple Reflex Agent** to fetch real-time Air Quality Index (AQI) data using Google APIs and provide health recommendations based on AQI levels.
 
 ---
 
-## 🧠 What This Project Does
+## What This Project Does
 
 1. Takes **State** and **Country** as CLI input
 2. Uses **Google Geocoding API** to convert location → latitude & longitude
@@ -34,7 +34,7 @@ aqi-agent/
 
 ---
 
-## 🔑 How To Get a Google API Key
+## How To Get a Google API Key
 
 ### Step 1 — Create a Google Cloud Project
 
@@ -46,8 +46,8 @@ aqi-agent/
 
 Go to **APIs & Services → Library** and enable:
 
-- ✅ **Geocoding API**
-- ✅ **Air Quality API**
+- **Geocoding API**
+- **Air Quality API**
 
 ### Step 3 — Create an API Key
 
@@ -56,7 +56,7 @@ Go to **APIs & Services → Library** and enable:
 3. Select **API Key**
 4. Copy the generated key
 
-### 🔒 (Recommended) Restrict Your API Key
+### (Recommended) Restrict Your API Key
 
 Click your API key → Add restrictions:
 
@@ -69,7 +69,7 @@ This prevents misuse if the key is accidentally exposed.
 
 ---
 
-## 🔐 Set Your API Key
+## Set Your API Key
 
 You must export your API key before running the program.
 
@@ -84,7 +84,7 @@ echo $GOOGLE_API_KEY
 
 ---
 
-## 🚀 How To Run
+## How To Run
 
 From the project root:
 
@@ -94,7 +94,7 @@ go run main.go Hyderabad India
 
 ---
 
-## 🧠 Reflex Agent Logic
+## Reflex Agent Logic
 
 The system uses rule-based decision logic:
 
